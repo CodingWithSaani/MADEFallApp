@@ -1,5 +1,16 @@
 <resources>
     <string name="app_name">MADEFallApp</string>
     <string name="uni_name">University of central punjab</string>
+    <string name="cs_text">CS</string>
+    <string name="se_text">SE</string>
+    <string name="it_text">IT</string>
+    <string name="change_text_btn">Change Text</string>
+    <string name="enter_your_first_value_here_et">Enter your first value here</string>
+    <string name="enter_your_second_value_here_et">Enter your second value here\n</string>
+    <string name="add_value_btn">+</string>
+    <string name="sub_value_btn">-</string>
+    <string name="mul_value_btn">*</string>
+    <string name="divide_value_btn">/</string>
+    <string name="clear_fields_btn">Clear Fields</string>
 
 </resources>

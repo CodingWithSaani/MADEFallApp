@@ -5,7 +5,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#8BC34A"
+    android:background="@color/white"
+    android:padding="10dp"
     tools:context=".MainActivity">
 
     <TextView
@@ -13,9 +14,91 @@
         android:layout_height="wrap_content"
         android:id="@+id/uni_title"
         android:text="@string/uni_name"
-        android:textSize="20sp"
+        android:textSize="22sp"
         android:gravity="center"
-        android:background="@color/text_bg"
+        android:textColor="@color/black"
+        android:layout_marginTop="50dp"
+        />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:id="@+id/main_logo_iv"
+        android:src="@drawable/ucp_logo"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/uni_title"
+        android:layout_marginTop="10dp"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/main_ll"
+        android:orientation="horizontal"
+        android:layout_below="@id/main_logo_iv"
+        android:layout_marginTop="100dp"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:id="@+id/cs_btn"
+            android:text="@string/cs_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:id="@+id/se_btn"
+            android:text="@string/se_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="50dp"
+            android:id="@+id/it_btn"
+            android:text="@string/it_text"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            />
+
+
+    </LinearLayout>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/get_value_et"
+        android:hint="Enter the value here"
+        android:layout_below="@id/main_ll"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="20dp"
+        />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:id="@+id/change_btn"
+        android:text="@string/change_text_btn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="50dp"
+        android:layout_below="@id/get_value_et"
         />
 
 </RelativeLayout>
+
+
+
+
+
+
+
+
+
