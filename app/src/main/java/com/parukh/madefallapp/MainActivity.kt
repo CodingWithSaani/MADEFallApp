@@ -5,7 +5,10 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
+import com.parukh.madefallapp.Lecture061223.RecylcerActivity
 import com.parukh.madefallapp.Lecture081123.Lecture081123Activity
+import com.parukh.madefallapp.Lecture221123.Lecture221123Activity
+import com.parukh.madefallapp.Lecture271123.LocationActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -29,7 +32,10 @@ class MainActivity : AppCompatActivity() {
         getValueET = findViewById(R.id.get_value_et)
         changeBtn.setOnClickListener {
             //changeUniTitle()
-            startActivity(Intent(this,Lecture081123Activity::class.java))
+
+            startActivity(
+                Intent(this,RecylcerActivity::class.java)
+            )
         }
     }
 
