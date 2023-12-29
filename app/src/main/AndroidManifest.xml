@@ -17,6 +17,9 @@
         android:theme="@style/Theme.MADEFallApp"
         tools:targetApi="31">
         <activity
+            android:name=".Lecture291223.RoomWorkingActivity"
+            android:exported="false" />
+        <activity
             android:name=".Lecture061223.RecylcerActivity"
             android:exported="false" />
         <activity

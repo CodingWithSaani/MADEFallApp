@@ -9,6 +9,7 @@ import com.parukh.madefallapp.Lecture061223.RecylcerActivity
 import com.parukh.madefallapp.Lecture081123.Lecture081123Activity
 import com.parukh.madefallapp.Lecture221123.Lecture221123Activity
 import com.parukh.madefallapp.Lecture271123.LocationActivity
+import com.parukh.madefallapp.Lecture291223.RoomWorkingActivity
 
 class MainActivity : AppCompatActivity() {
 
@@ -22,6 +23,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         connectToXML()
+
     }
 
     private fun connectToXML()
@@ -34,7 +36,7 @@ class MainActivity : AppCompatActivity() {
             //changeUniTitle()
 
             startActivity(
-                Intent(this,RecylcerActivity::class.java)
+                Intent(this,RoomWorkingActivity::class.java)
             )
         }
     }

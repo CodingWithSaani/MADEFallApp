@@ -12,5 +12,7 @@
     <string name="mul_value_btn">*</string>
     <string name="divide_value_btn">/</string>
     <string name="clear_fields_btn">Clear Fields</string>
+    <string name="add_single_record">Add Single Record</string>
+    <string name="get_record">Get Records</string>
 
 </resources>
