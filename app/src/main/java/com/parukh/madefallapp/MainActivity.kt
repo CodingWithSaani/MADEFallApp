@@ -6,6 +6,7 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import com.parukh.madefallapp.Lecture061223.RecylcerActivity
+import com.parukh.madefallapp.Lecture080124.FirestoreActivity
 import com.parukh.madefallapp.Lecture081123.Lecture081123Activity
 import com.parukh.madefallapp.Lecture221123.Lecture221123Activity
 import com.parukh.madefallapp.Lecture271123.LocationActivity
@@ -36,7 +37,7 @@ class MainActivity : AppCompatActivity() {
             //changeUniTitle()
 
             startActivity(
-                Intent(this,RoomWorkingActivity::class.java)
+                Intent(this,FirestoreActivity::class.java)
             )
         }
     }

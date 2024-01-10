@@ -14,5 +14,11 @@
     <string name="clear_fields_btn">Clear Fields</string>
     <string name="add_single_record">Add Single Record</string>
     <string name="get_record">Get Records</string>
+    <string name="enter_the_name_here">Enter the name here</string>
+    <string name="enter_the_email_here">Enter the email here\n</string>
+    <string name="enter_the_age_here">Enter the age here</string>
+    <string name="save_the_record">Save the record</string>
+    <string name="get_the_record">Get the record</string>
+    <string name="result_will_be_displayed_here">Result will be displayed here</string>
 
 </resources>
