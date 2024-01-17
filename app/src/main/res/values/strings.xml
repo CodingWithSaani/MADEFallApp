@@ -20,5 +20,7 @@
     <string name="save_the_record">Save the record</string>
     <string name="get_the_record">Get the record</string>
     <string name="result_will_be_displayed_here">Result will be displayed here</string>
+    <string name="start_media">Start Media</string>
+    <string name="stop_media">Stop Media</string>
 
 </resources>

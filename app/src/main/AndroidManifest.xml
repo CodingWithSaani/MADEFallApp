@@ -17,6 +17,9 @@
         android:theme="@style/Theme.MADEFallApp"
         tools:targetApi="31">
         <activity
+            android:name=".Lecture170124.ServiceWorkingActivity"
+            android:exported="false" />
+        <activity
             android:name=".Lecture080124.FirestoreActivity"
             android:exported="false" />
         <activity
@@ -43,6 +46,8 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <service android:name=".Lecture170124.MyService"/>
     </application>
 
 </manifest>

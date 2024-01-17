@@ -8,6 +8,7 @@ import android.widget.TextView
 import com.parukh.madefallapp.Lecture061223.RecylcerActivity
 import com.parukh.madefallapp.Lecture080124.FirestoreActivity
 import com.parukh.madefallapp.Lecture081123.Lecture081123Activity
+import com.parukh.madefallapp.Lecture170124.ServiceWorkingActivity
 import com.parukh.madefallapp.Lecture221123.Lecture221123Activity
 import com.parukh.madefallapp.Lecture271123.LocationActivity
 import com.parukh.madefallapp.Lecture291223.RoomWorkingActivity
@@ -37,7 +38,7 @@ class MainActivity : AppCompatActivity() {
             //changeUniTitle()
 
             startActivity(
-                Intent(this,FirestoreActivity::class.java)
+                Intent(this,ServiceWorkingActivity::class.java)
             )
         }
     }
