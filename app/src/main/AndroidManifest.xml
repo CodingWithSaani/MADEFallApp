@@ -17,6 +17,12 @@
         android:theme="@style/Theme.MADEFallApp"
         tools:targetApi="31">
         <activity
+            android:name=".Lecture260124.DFWActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Lecture260124.SFWActivity"
+            android:exported="false" />
+        <activity
             android:name=".Lecture220124.BRActivity"
             android:exported="false" />
         <activity

@@ -11,6 +11,8 @@ import com.parukh.madefallapp.Lecture081123.Lecture081123Activity
 import com.parukh.madefallapp.Lecture170124.ServiceWorkingActivity
 import com.parukh.madefallapp.Lecture220124.BRActivity
 import com.parukh.madefallapp.Lecture221123.Lecture221123Activity
+import com.parukh.madefallapp.Lecture260124.DFWActivity
+import com.parukh.madefallapp.Lecture260124.SFWActivity
 import com.parukh.madefallapp.Lecture271123.LocationActivity
 import com.parukh.madefallapp.Lecture291223.RoomWorkingActivity
 
@@ -39,7 +41,7 @@ class MainActivity : AppCompatActivity() {
             //changeUniTitle()
 
             startActivity(
-                Intent(this,BRActivity::class.java)
+                Intent(this,DFWActivity::class.java)
             )
         }
     }
